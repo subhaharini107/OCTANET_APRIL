@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-top {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.social-link i box-icon {
+  margin-left: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.social-link i box-icon:hover {
+  background-color: #25f3de;
+  border-radius: 90px;
+}
+@media screen and (max-width: 400px) {
+  .social-links i box-icon {
+    width: 20px;
+  }
+}
+.logo h3 {
+  font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+  .logo h3 {
+    font-size: 20px;
+  }
+}
+.icon i box-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  .icon i box-icon {
+    width: 20px;
+  }
+}
+
+.main-content {
+  width: 100%;
+  height: 90vh;
+  background-image: url(https://www.sansolinc.com/wp-content/uploads/2020/10/stationary-banner.jpg);
+  background-size: cover;
+  background-position: 70%;
+}
+#navbar-color {
+  background-color: #25f3de;
+}
+.navbar-nav {
+  margin: auto;
+}
+.nav-link {
+  margin-left: 30px;
+  font-weight: bold;
+  color: black;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.nav-link:hover {
+  color: seashell;
+}
+.content {
+  margin-top: 90px;
+  margin-left: 60px;
+}
+.content h1 {
+  font-size: 50px;
+}
+#btn1 button {
+  width: 150px;
+  height: 32px;
+  background: transparent;
+  border: 1px solid black;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn1 button:hover {
+  background-color: black;
+  color: white;
+}
+@media screen and (max-width: 420px) {
+  .content h1 {
+    font-size: 40px;
+  }
+}
+#btn2 button {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid black;
+  transition: 0.5 ease;
+  cursor: pointer;
+}
+#btn2 button:hover {
+  background-color: rgba(238, 224, 208);
+}
+#btn3 button {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 1px solid black;
+  transition: 0.5 ease;
+  cursor: pointer;
+}
+#btn3 button:hover {
+  background-color: rgba(238, 224, 208);
+}
+#footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 100px;
+}
+#footer h1 {
+  color: white;
+  padding-top: 30px;
+}
+#footer p {
+  color: white;
+}
+.icons i {
+  color: #25f3de;
+  font-size: 30px;
+  cursor: pointer;
+}
+.copyright {
+  color: white;
+  margin-top: 20px;
+}
+.credite {
+  color: white;
+}
